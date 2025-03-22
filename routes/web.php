@@ -23,6 +23,5 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
-// My name is Oggy. Who are you, Jack??
+
 require __DIR__.'/auth.php';
-//Oh, you are Dede. I will eat you, muhahaha...
